@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D69248E815E00680007C2312 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69248E715E00680007C2312 /* UIKit.framework */; };
+		D69248EA15E00680007C2312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69248E915E00680007C2312 /* Foundation.framework */; };
+		D69248EC15E00680007C2312 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69248EB15E00680007C2312 /* CoreGraphics.framework */; };
+		D69248F215E00680007C2312 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D69248F015E00680007C2312 /* InfoPlist.strings */; };
+		D69248F415E00680007C2312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D69248F315E00680007C2312 /* main.m */; };
+		D69248F815E00680007C2312 /* SVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D69248F715E00680007C2312 /* SVAppDelegate.m */; };
+		D69248FB15E00680007C2312 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69248F915E00680007C2312 /* MainStoryboard_iPhone.storyboard */; };
+		D69248FE15E00680007C2312 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69248FC15E00680007C2312 /* MainStoryboard_iPad.storyboard */; };
+		D692490115E00680007C2312 /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D692490015E00680007C2312 /* SVViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D69248E315E00680007C2312 /* SquazzVoice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquazzVoice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69248E715E00680007C2312 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D69248E915E00680007C2312 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D69248EB15E00680007C2312 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D69248EF15E00680007C2312 /* SquazzVoice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SquazzVoice-Info.plist"; sourceTree = "<group>"; };
+		D69248F115E00680007C2312 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D69248F315E00680007C2312 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D69248F515E00680007C2312 /* SquazzVoice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SquazzVoice-Prefix.pch"; sourceTree = "<group>"; };
+		D69248F615E00680007C2312 /* SVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVAppDelegate.h; sourceTree = "<group>"; };
+		D69248F715E00680007C2312 /* SVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVAppDelegate.m; sourceTree = "<group>"; };
+		D69248FA15E00680007C2312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D69248FD15E00680007C2312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D69248FF15E00680007C2312 /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
+		D692490015E00680007C2312 /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69248E015E00680007C2312 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69248E815E00680007C2312 /* UIKit.framework in Frameworks */,
+				D69248EA15E00680007C2312 /* Foundation.framework in Frameworks */,
+				D69248EC15E00680007C2312 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D69248D815E00680007C2312 = {
+			isa = PBXGroup;
+			children = (
+				D69248ED15E00680007C2312 /* SquazzVoice */,
+				D69248E615E00680007C2312 /* Frameworks */,
+				D69248E415E00680007C2312 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D69248E415E00680007C2312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69248E315E00680007C2312 /* SquazzVoice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D69248E615E00680007C2312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D69248E715E00680007C2312 /* UIKit.framework */,
+				D69248E915E00680007C2312 /* Foundation.framework */,
+				D69248EB15E00680007C2312 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69248ED15E00680007C2312 /* SquazzVoice */ = {
+			isa = PBXGroup;
+			children = (
+				D69248F615E00680007C2312 /* SVAppDelegate.h */,
+				D69248F715E00680007C2312 /* SVAppDelegate.m */,
+				D69248F915E00680007C2312 /* MainStoryboard_iPhone.storyboard */,
+				D69248FC15E00680007C2312 /* MainStoryboard_iPad.storyboard */,
+				D69248FF15E00680007C2312 /* SVViewController.h */,
+				D692490015E00680007C2312 /* SVViewController.m */,
+				D69248EE15E00680007C2312 /* Supporting Files */,
+			);
+			path = SquazzVoice;
+			sourceTree = "<group>";
+		};
+		D69248EE15E00680007C2312 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D69248EF15E00680007C2312 /* SquazzVoice-Info.plist */,
+				D69248F015E00680007C2312 /* InfoPlist.strings */,
+				D69248F315E00680007C2312 /* main.m */,
+				D69248F515E00680007C2312 /* SquazzVoice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69248E215E00680007C2312 /* SquazzVoice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D692490415E00680007C2312 /* Build configuration list for PBXNativeTarget "SquazzVoice" */;
+			buildPhases = (
+				D69248DF15E00680007C2312 /* Sources */,
+				D69248E015E00680007C2312 /* Frameworks */,
+				D69248E115E00680007C2312 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquazzVoice;
+			productName = SquazzVoice;
+			productReference = D69248E315E00680007C2312 /* SquazzVoice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69248DA15E00680007C2312 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SV;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Michael Matranga";
+			};
+			buildConfigurationList = D69248DD15E00680007C2312 /* Build configuration list for PBXProject "SquazzVoice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D69248D815E00680007C2312;
+			productRefGroup = D69248E415E00680007C2312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69248E215E00680007C2312 /* SquazzVoice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69248E115E00680007C2312 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69248F215E00680007C2312 /* InfoPlist.strings in Resources */,
+				D69248FB15E00680007C2312 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D69248FE15E00680007C2312 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69248DF15E00680007C2312 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D69248F415E00680007C2312 /* main.m in Sources */,
+				D69248F815E00680007C2312 /* SVAppDelegate.m in Sources */,
+				D692490115E00680007C2312 /* SVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D69248F015E00680007C2312 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69248F115E00680007C2312 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D69248F915E00680007C2312 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69248FA15E00680007C2312 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D69248FC15E00680007C2312 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D69248FD15E00680007C2312 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D692490215E00680007C2312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D692490315E00680007C2312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D692490515E00680007C2312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SquazzVoice/SquazzVoice-Prefix.pch";
+				INFOPLIST_FILE = "SquazzVoice/SquazzVoice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D692490615E00680007C2312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SquazzVoice/SquazzVoice-Prefix.pch";
+				INFOPLIST_FILE = "SquazzVoice/SquazzVoice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69248DD15E00680007C2312 /* Build configuration list for PBXProject "SquazzVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D692490215E00680007C2312 /* Debug */,
+				D692490315E00680007C2312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D692490415E00680007C2312 /* Build configuration list for PBXNativeTarget "SquazzVoice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D692490515E00680007C2312 /* Debug */,
+				D692490615E00680007C2312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69248DA15E00680007C2312 /* Project object */;
+}
