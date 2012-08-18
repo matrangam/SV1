@@ -1,13 +1,9 @@
-//
-//  SVViewController.h
-//  SquazzVoice
-//
-//  Created by Michael Matranga on 8/18/12.
-//  Copyright (c) 2012 Michael Matranga. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 
 @interface SVViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet UIButton* voiceButton;
+
+- (IBAction) voiceButtonPressed:(id)sender;
 
 @end
