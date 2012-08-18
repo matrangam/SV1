@@ -16,6 +16,7 @@
 		D69248FB15E00680007C2312 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69248F915E00680007C2312 /* MainStoryboard_iPhone.storyboard */; };
 		D69248FE15E00680007C2312 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69248FC15E00680007C2312 /* MainStoryboard_iPad.storyboard */; };
 		D692490115E00680007C2312 /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D692490015E00680007C2312 /* SVViewController.m */; };
+		D692490815E007CA007C2312 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692490715E007CA007C2312 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		D69248FD15E00680007C2312 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D69248FF15E00680007C2312 /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
 		D692490015E00680007C2312 /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
+		D692490715E007CA007C2312 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D692490815E007CA007C2312 /* AVFoundation.framework in Frameworks */,
 				D69248E815E00680007C2312 /* UIKit.framework in Frameworks */,
 				D69248EA15E00680007C2312 /* Foundation.framework in Frameworks */,
 				D69248EC15E00680007C2312 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		D69248D815E00680007C2312 = {
 			isa = PBXGroup;
 			children = (
+				D692490715E007CA007C2312 /* AVFoundation.framework */,
 				D69248ED15E00680007C2312 /* SquazzVoice */,
 				D69248E615E00680007C2312 /* Frameworks */,
 				D69248E415E00680007C2312 /* Products */,
