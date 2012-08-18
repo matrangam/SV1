@@ -17,6 +17,16 @@
 		D69248FE15E00680007C2312 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69248FC15E00680007C2312 /* MainStoryboard_iPad.storyboard */; };
 		D692490115E00680007C2312 /* SVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D692490015E00680007C2312 /* SVViewController.m */; };
 		D692490815E007CA007C2312 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D692490715E007CA007C2312 /* AVFoundation.framework */; };
+		D692491815E04D6E007C2312 /* AwMan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692490E15E04D6E007C2312 /* AwMan.m4a */; };
+		D692491915E04D6E007C2312 /* BreakUp.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692490F15E04D6E007C2312 /* BreakUp.m4a */; };
+		D692491A15E04D6E007C2312 /* IDontKnowWhatItMeans.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491015E04D6E007C2312 /* IDontKnowWhatItMeans.m4a */; };
+		D692491B15E04D6E007C2312 /* Oh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491115E04D6E007C2312 /* Oh.m4a */; };
+		D692491C15E04D6E007C2312 /* Penis.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491215E04D6E007C2312 /* Penis.m4a */; };
+		D692491D15E04D6E007C2312 /* PuppyDogs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491315E04D6E007C2312 /* PuppyDogs.m4a */; };
+		D692491E15E04D6E007C2312 /* RuiningMyNight.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491415E04D6E007C2312 /* RuiningMyNight.m4a */; };
+		D692491F15E04D6E007C2312 /* UgliestFacesEver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491515E04D6E007C2312 /* UgliestFacesEver.m4a */; };
+		D692492015E04D6E007C2312 /* VodkaTonic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491615E04D6E007C2312 /* VodkaTonic.m4a */; };
+		D692492115E04D6E007C2312 /* YouCanComeAndNotDrink.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D692491715E04D6E007C2312 /* YouCanComeAndNotDrink.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +45,16 @@
 		D69248FF15E00680007C2312 /* SVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SVViewController.h; sourceTree = "<group>"; };
 		D692490015E00680007C2312 /* SVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SVViewController.m; sourceTree = "<group>"; };
 		D692490715E007CA007C2312 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D692490E15E04D6E007C2312 /* AwMan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = AwMan.m4a; sourceTree = "<group>"; };
+		D692490F15E04D6E007C2312 /* BreakUp.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = BreakUp.m4a; sourceTree = "<group>"; };
+		D692491015E04D6E007C2312 /* IDontKnowWhatItMeans.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = IDontKnowWhatItMeans.m4a; sourceTree = "<group>"; };
+		D692491115E04D6E007C2312 /* Oh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oh.m4a; sourceTree = "<group>"; };
+		D692491215E04D6E007C2312 /* Penis.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Penis.m4a; sourceTree = "<group>"; };
+		D692491315E04D6E007C2312 /* PuppyDogs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = PuppyDogs.m4a; sourceTree = "<group>"; };
+		D692491415E04D6E007C2312 /* RuiningMyNight.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = RuiningMyNight.m4a; sourceTree = "<group>"; };
+		D692491515E04D6E007C2312 /* UgliestFacesEver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = UgliestFacesEver.m4a; sourceTree = "<group>"; };
+		D692491615E04D6E007C2312 /* VodkaTonic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = VodkaTonic.m4a; sourceTree = "<group>"; };
+		D692491715E04D6E007C2312 /* YouCanComeAndNotDrink.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = YouCanComeAndNotDrink.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +103,7 @@
 		D69248ED15E00680007C2312 /* SquazzVoice */ = {
 			isa = PBXGroup;
 			children = (
+				D692490D15E04D6E007C2312 /* Audio */,
 				D69248F615E00680007C2312 /* SVAppDelegate.h */,
 				D69248F715E00680007C2312 /* SVAppDelegate.m */,
 				D69248F915E00680007C2312 /* MainStoryboard_iPhone.storyboard */,
@@ -103,6 +124,23 @@
 				D69248F515E00680007C2312 /* SquazzVoice-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D692490D15E04D6E007C2312 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D692490E15E04D6E007C2312 /* AwMan.m4a */,
+				D692490F15E04D6E007C2312 /* BreakUp.m4a */,
+				D692491015E04D6E007C2312 /* IDontKnowWhatItMeans.m4a */,
+				D692491115E04D6E007C2312 /* Oh.m4a */,
+				D692491215E04D6E007C2312 /* Penis.m4a */,
+				D692491315E04D6E007C2312 /* PuppyDogs.m4a */,
+				D692491415E04D6E007C2312 /* RuiningMyNight.m4a */,
+				D692491515E04D6E007C2312 /* UgliestFacesEver.m4a */,
+				D692491615E04D6E007C2312 /* VodkaTonic.m4a */,
+				D692491715E04D6E007C2312 /* YouCanComeAndNotDrink.m4a */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +198,16 @@
 				D69248F215E00680007C2312 /* InfoPlist.strings in Resources */,
 				D69248FB15E00680007C2312 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D69248FE15E00680007C2312 /* MainStoryboard_iPad.storyboard in Resources */,
+				D692491815E04D6E007C2312 /* AwMan.m4a in Resources */,
+				D692491915E04D6E007C2312 /* BreakUp.m4a in Resources */,
+				D692491A15E04D6E007C2312 /* IDontKnowWhatItMeans.m4a in Resources */,
+				D692491B15E04D6E007C2312 /* Oh.m4a in Resources */,
+				D692491C15E04D6E007C2312 /* Penis.m4a in Resources */,
+				D692491D15E04D6E007C2312 /* PuppyDogs.m4a in Resources */,
+				D692491E15E04D6E007C2312 /* RuiningMyNight.m4a in Resources */,
+				D692491F15E04D6E007C2312 /* UgliestFacesEver.m4a in Resources */,
+				D692492015E04D6E007C2312 /* VodkaTonic.m4a in Resources */,
+				D692492115E04D6E007C2312 /* YouCanComeAndNotDrink.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

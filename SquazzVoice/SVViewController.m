@@ -2,40 +2,36 @@
 #import "stdlib.h"
 #import <AVFoundation/AVFoundation.h>
 
-@interface SVViewController ()
 
+@interface SVViewController () <AVAudioPlayerDelegate>
+@property (nonatomic, strong) AVAudioPlayer* audioPlayer;
 @end
 
-@implementation SVViewController {
-    AVAudioPlayer* _audioPlayer;
-}
+@implementation SVViewController
 
 + (NSString*) randomFilePath
 {
     NSDictionary* dict = @{
-        @0 : @"ONE",
-        @1 : @"TWO",
-        @2 : @"THREE",
-        @3 : @"FOUR",
-        @4 : @"FIVE",
-        @5 : @"SIX",
-        @6 : @"SEVEN",
-        @7 : @"EIGHT",
-        @8 : @"NINE",
-        @9 : @"TEN",
-        @10 : @"ELEVEN",
-        @11 : @"TWELVE",
+        @0 : @"AwMan",
+        @1 : @"BreakUp",
+        @2 : @"IDontKnowWhatItMeans",
+        @3 : @"Oh",
+        @4 : @"Penis",
+        @5 : @"PuppyDogs",
+        @6 : @"RuiningMyNight",
+        @7 : @"UgliestFacesEver",
+        @8 : @"VodkaTonic",
+        @9 : @"YouCanComeAndNotDrink",
     };
     
     NSArray* allKeys = [dict allKeys];
-    NSInteger randomIteger = arc4random_uniform([allKeys count]);
-    NSNumber* randNum = [NSNumber numberWithInteger:randomIteger];
+    NSInteger randomInteger = arc4random_uniform([allKeys count]);
+    NSNumber* randNum = [NSNumber numberWithInteger:randomInteger];
     return [dict objectForKey:randNum];
 }
 
-+ (AVAudioPlayer*) audioPlayerWithURL:(NSURL*)URL
++ (AVAudioPlayer*) audioPlayerWithURL:(NSURL*)URL error:(NSError*)error
 {
-    NSError* error = nil;
     return [[AVAudioPlayer alloc] initWithContentsOfURL:URL error:&error];
 }
 
@@ -47,7 +43,20 @@
 
 - (IBAction) voiceButtonPressed:(id)sender
 {
-    _audioPlayer = [SVViewController audioPlayerWithURL:[NSURL URLWithString:[SVViewController randomFilePath]]];
-    NSLog(@"%@", [SVViewController randomFilePath]);
+    NSURL *url = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/%@.m4a", [[NSBundle mainBundle] resourcePath], [SVViewController randomFilePath]]];
+    NSError* error = nil;
+    _audioPlayer = [SVViewController audioPlayerWithURL:url error:error];
+    [_audioPlayer setDelegate:self];
+    if (!error) {
+        [_voiceButton setEnabled:NO];
+        [_audioPlayer play];
+    }
 }
+
+- (void) audioPlayerDidFinishPlaying:(AVAudioPlayer*)player successfully:(BOOL)flag
+{
+    [_voiceButton setEnabled:YES];
+}
+
+
 @end
